@@ -1,6 +1,7 @@
 {
   "tag": "rc",
   "changes": [
+    ".changes/about-metadata-into-string.md",
     ".changes/allow-conf-gitignore.md",
     ".changes/allowlist-clipboard.md",
     ".changes/allowlist-dialog.md",
@@ -135,6 +136,7 @@
     ".changes/fix-tray-remove-windows.md",
     ".changes/fix-updater-msi.md",
     ".changes/fix-updater-percent-decode.md",
+    ".changes/fix-window-builder-export.md",
     ".changes/fix-window-created-listen.md",
     ".changes/fix-window-creation-deadlock.md",
     ".changes/fix-window-label-api.md",
@@ -206,6 +208,7 @@
     ".changes/refactor-window-event.md",
     ".changes/refactor-window-metadata.md",
     ".changes/refactor-zip-features.md",
+    ".changes/remove-bootstrapper.md",
     ".changes/remove-current-base-directory.md",
     ".changes/remove-run-event-exit-requested-window-label.md",
     ".changes/remove-tauricon.md",
@@ -251,6 +254,7 @@
     ".changes/universal-apple-target.md",
     ".changes/unlisten-fix.md",
     ".changes/unlisten.md",
+    ".changes/update-response-methods.md",
     ".changes/update-wry.md",
     ".changes/updater-check-api.md",
     ".changes/updater-custom-version-checker.md",

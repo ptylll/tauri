@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-rc.5]
+
+- **Breaking change:** Removed the `useBootstrapper` option. Use https://github.com/tauri-apps/fix-path-env-rs instead.
+  - [6a5ff08c](https://www.github.com/tauri-apps/tauri/commit/6a5ff08ce9052b656aa40accedfd4315825164a3) refactor: remove bootstrapper, closes [#3786](https://www.github.com/tauri-apps/tauri/pull/3786) ([#3832](https://www.github.com/tauri-apps/tauri/pull/3832)) on 2022-03-31
+
 ## \[1.0.0-rc.4]
 
 - Added an option to disable the CSP injection of distributable assets nonces and hashes.

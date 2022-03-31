@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.0.0-rc.7]
+
+- Fixes the `WindowBuilder` export.
+  - [985d2508](https://www.github.com/tauri-apps/tauri/commit/985d250898f07ebc975b579ea25555337947ab76) fix(tauri): export `WindowBuilder` struct instead of trait, closes [#3827](https://www.github.com/tauri-apps/tauri/pull/3827) ([#3833](https://www.github.com/tauri-apps/tauri/pull/3833)) on 2022-03-31
+- Added `UpdateResponse::body` and `UpdateResponse::date`.
+  - [c7696f34](https://www.github.com/tauri-apps/tauri/commit/c7696f34ecb7baa0da583736e727f74a01f5996a) feat(updater): add `body` and `date` getters ([#3802](https://www.github.com/tauri-apps/tauri/pull/3802)) on 2022-03-29
+
 ## \[1.0.0-rc.6]
 
 - Fixes the `WindowEvent` type used on `Window::on_window_event`.
